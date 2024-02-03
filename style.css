@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.top{
+    height: 8vh;
+    width: auto;
+    border-bottom: 2px solid lightgrey;
+}
+.nav-left{
+    position: absolute;
+    left: 4rem;
+    top: 1.5rem;
+}
+.nav-right{
+    position: absolute;
+    left: 100rem;
+    top: 1.5rem;
+}
+
+.space{
+    display: flex;
+}
+
+.main-modal{
+    height: 100vh;
+    width: 60vw;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feed{
+    height: 100vh;
+    width: 40vw;
+}
+
+.box{
+    height: 40%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    font-size: x-large;
+    padding: 0.2cm;
+    margin: 0.1cm;
+}
+
+.entry-box{
+    flex-wrap: wrap;
+    margin: 0.3cm;
+    padding: 0.3cm;
+    background-color: white;
+    height: 100%;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.text-box{
+    height: 75%;
+    width: 89%;
+    border: 0;
+}
+
+.entry-profile{
+    position: relative;
+}
+
+.post-btn{
+    position: relative;
+    height: 40px;
+    width: 80px;
+    background-color: blue;
+    font-weight: 300;
+    font-size: large;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.feed-text{
+    font-size: x-large;
+    margin: 30px;
+}
+
+.tickets{
+    border: 0.04cm lightgrey solid;
+    border-radius: 10px;
+    height: 27%;
+    width: 80%;
+    margin: 20px;
+}
+.pic-tickets{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.ticket-name{
+    font-weight: 500;
+}
+
+.line{
+    display: grid;
+    grid-template-columns: 110px 140px 60px 60px;
+    grid-template-rows: 30px;
+}
+
+.editBtn
+,.delBtn{
+    cursor: pointer;
+}
+
+
+.tweet-content{
+    height: auto;
+    width: 35rem;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0;
+    resize: none;
+    border: none;
+    outline: 0;
+}
+
+.comment-btn{
+    margin: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    height: 20px;
+}
+.like-btn{
+    margin: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    height: 20px;
+}
